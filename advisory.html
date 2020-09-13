@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CovidInfo</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/color.css">
+    <link rel="stylesheet" href="./assets/fonts/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="nav-wrapper transparent">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="./assets/images/covidlogo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stats</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="advisory.html">Advisory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hospitals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="helpline.html">Helpline</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Table-->
+    <div class="container" id="advisoryTable">
+        <div class="row table">
+            <table class="table table-striped justify-content-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Notification</th>
+                        <th scope="col">Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>02.08.2020</td>
+                        <td>Revised guidelines for International Arrivals</td>
+                        <td><a href="https://www.mohfw.gov.in/pdf/RevisedguidelinesforInternationalArrivals02082020.pdf" target="_blank">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>pdf</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>24.05.2020</td>
+                        <td>Guidelines for international arrivals</td>
+                        <td><a href="https://www.mohfw.gov.in/pdf/Guidelinesforinternationalarrivals.pdf">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>pdf</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>24.05.2020</td>
+                        <td>Guidelines for domestic travel (air/train/inter-state bus travel)</td>
+                        <td><a href="https://www.mohfw.gov.in/pdf/Guidelinesfordomestictravel(airortrainorinter-statebustravel).pdf">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>pdf</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
