@@ -2,6 +2,10 @@ body {
     background-color: #fff;
 }
 
+.navbar {
+    background-color: #fff;
+}
+
 .jumbotron {
     background-image: url('../images/3652872.jpg');
     height: 150%;
@@ -84,4 +88,22 @@ body {
 
 .symptoms-item {
     padding: 2%;
+}
+
+.parallax2 {
+    background-color: #E5F1FF;
+    padding: 10%;
+    padding-bottom: 5%;
+}
+
+.table {
+    padding: 2%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
