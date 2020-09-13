@@ -5,6 +5,7 @@ body {
 .jumbotron {
     background-image: url('../images/3652872.jpg');
     height: 150%;
+    padding: 10%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -36,10 +37,51 @@ body {
     border-radius: 15%;
 }
 
+.overview {
+    margin: 5%;
+}
 
-/* #covidimg {
-    max-width: 600px;
-    max-height: 500px;
-    display: inline;
-    float: right;
-} */
+.overview-head,
+.overview-head {
+    margin: 3%;
+    margin-bottom: 0%;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.overview .overview-list .overview-item {
+    padding: 5%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax .precutions-head {
+    color: #fff;
+    margin: 5%;
+    margin-bottom: 0%;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.precautions-item {
+    color: #fff;
+    padding: 5%;
+}
+
+.symptoms-list {
+    padding: 4%;
+}
+
+.symptoms-item {
+    padding: 2%;
+}
