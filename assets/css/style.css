@@ -1,21 +1,45 @@
 body {
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
-.navbar {
-    background-color: #f1f1f1;
+
+.jumbotron {
+    background-image: url('../images/3652872.jpg');
+    height: 150%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-heading {
+    margin: 5rem;
+    margin-bottom: 0%;
+}
+
+.navbar .collapse .navbar-nav .nav-link {
+    font-size: 22px;
+    font-weight: 500;
 }
 
 #statesForm {
-    margin: 100px 700px 0px 100px;
+    margin: 3%;
+}
+
+.form-group .label-form {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .btn-primary {
     margin-top: 10px;
+    font-size: large;
+    border-radius: 15%;
 }
 
-#covidimg {
+
+/* #covidimg {
     max-width: 600px;
     max-height: 500px;
     display: inline;
     float: right;
-}
+} */
